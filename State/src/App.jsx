@@ -21,10 +21,9 @@ function App() {
     <button className="bg-red-300 p-2 rounded-md" onClick={increment}> Increment</button>
     <hr />
     <div className="mt-6">
-    <input className="indent-2 rounded-md bg-red-200" type="text" placeholder="place text here" onChange={onType} />
+    <input className="indent-2 rounded-md bg-red-200" type="text" placeholder="place text here" onChange={onType} />  <br />
     {inputValue}
     </div>
-    <input type="text" />
   </div>
  )
 }
