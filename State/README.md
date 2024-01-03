@@ -18,3 +18,8 @@ the onchange should call a function inside of it at every single key stroke and 
 the onchange property should have the event type.
 the new value being typed should be accessible using the event.target.value
 then set the setInputValue to the newValue. REMEMBER to add the name of the function that updates the ne value, passed into onChange.
+
+USEREDUCER
+the useReducer is used when different states are altered in the same action. it keeps track of multiple pieces of state.
+the useReducer is destructured into state(for all present states) and dispatch.
+State handles all the changing values while dispatch handles the

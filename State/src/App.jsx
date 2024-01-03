@@ -1,4 +1,5 @@
 import { useState } from "react"
+import UseReducer from "./UseReducer"
 function App() {
   const [counter, setCounter]=useState(0)
   const [inputValue, setInputValue]= useState("Jacinta")
@@ -23,8 +24,11 @@ function App() {
     <div className="mt-6">
     <input className="indent-2 rounded-md bg-red-200" type="text" placeholder="place text here" onChange={onType} />  <br />
     {inputValue}
-    </div>
+    </div> <hr />
+    <br />
+    < UseReducer />
   </div>
+  
  )
 }
 
