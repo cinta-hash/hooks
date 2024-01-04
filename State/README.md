@@ -22,4 +22,7 @@ then set the setInputValue to the newValue. REMEMBER to add the name of the func
 USEREDUCER
 the useReducer is used when different states are altered in the same action. it keeps track of multiple pieces of state.
 the useReducer is destructured into state(for all present states) and dispatch.
-State handles all the changing values while dispatch handles the
+the useReducer takes a reducer function and the initial values of the states in your component
+create the reducer function which takes 2 args. the first one is state which gives constant access to the value of state and the action which determines what we want to do with the state
+we use a switch statement on the action type or the action that acts upon the state. case => name of action 
+the return statement returns the new value of our state
