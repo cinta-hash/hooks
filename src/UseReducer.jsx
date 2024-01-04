@@ -18,7 +18,11 @@ export default function UseReducer(){
     return(
         <div>
             {state.count} <br />
-            <button className="rounded-md bg-red-200">
+            <button className="rounded-md bg-red-200"
+            onClick={()=>{
+                dispatch({type: "INCREMENT"});
+                dispatch({type: "toggleShowText"});
+            }}>
                 Click Me!
             </button>
             {state.showText && <p>this text disappears</p>}
